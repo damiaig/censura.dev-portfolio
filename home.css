@@ -586,6 +586,7 @@ height: 25px;
 .input-group label {
   margin-bottom: 5px;
   font-weight: bold;
+  font-size: 15px;
 }
 
 .input-group input,
@@ -597,6 +598,7 @@ height: 25px;
   color: white;
   font-family: 'Fira Code', monospace;
   resize: vertical;
+  font-size: 15px;
   outline: none;
 }
 
@@ -647,6 +649,7 @@ height: 25px;
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
+  color: black;
   right: 20px;
   border: none;
   gap: 5px; /* optional: alternative to margin-right on icon */
@@ -666,6 +669,7 @@ height: 25px;
   background-color: orange;
   margin-top: 15px;
   border-radius: 5px;
+  color: black;
   cursor: pointer;
   border: 0px;
   justify-content: center;
