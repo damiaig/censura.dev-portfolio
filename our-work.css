@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    background-color: #121212;
+    color: white;
+  }
+  
+.hopo{
+    width: 900px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  nav {
+  
+    padding: 10px 0px 0px 0px; /* top-right-bottom-left */
+ 
+    width: 900px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+ margin-top: 20px;
+    top: 0;
+    font-size: 18px;
+    align-items: center;
+    left: 0;
+    
+    z-index: 1000;
+  }
+  
+  @media (max-width: 330px) {
+    nav {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 960px) {
+    nav, .hopo {
+      width: 90% !important;
+    }
+  }
+
+.logo img{
+    height:45px;
+    width: auto;
+ 
+}
+
+  ul.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.navbar li {
+    margin-right: 18px; /* Reduced general spacing */
+  }
+  
+  ul.navbar li.logo {
+    margin-right: 35px; /* Reduced space between logo and Home */
+  }
+  
+  ul.navbar li.logo img {
+    height: 40px; /* Slightly bigger logo */
+    width: auto;
+  }
+  
+  ul.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul.navbar li .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
