@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    background-color: #121212;
+    color: white;
+  }
+ 
+
+h1{
+ 
+    font-style: normal !important;
+    font-weight: 700 !important;
+
+}
+
+  form#login-form {
+    top:50px;
+    position: relative;
+ 
+    padding: 40px;
+    border-radius: 10px;
+ width:250px;
+ margin: auto;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input{
+    color: #980c0c;
+  }
+  form input,
+  form button,
+  #toggle-password {
+    width: 250px;
+    outline: none;
+    font-family: 'Fira Code', monospace;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #121212;
+    border: 1px solid #fff;
+  }
+  
+  #toggle-password {
+    background-color: rgba(255, 255, 255, 0.05);
+color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  form button {
+    background-color: rgba(255, 255, 255, 0.15); /* lighter background */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: rgba(255, 255, 255, 0.25); /* even lighter on hover */
+    transform: scale(1.03); /* slight zoom-in effect on hover */
+  }
+  
+  
+
+  #message {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    pointer-events: none;
+  }
+  
+  /* Slide up cloud effect */
+  #message.show {
+    transform: translateX(-50%) translateY(-50px);
+    opacity: 1;
+  }
+  
