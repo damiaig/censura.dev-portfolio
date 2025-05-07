@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+ 
+            <link rel="icon" href="whitebglogo.png" type="image/png">
+            <style>
+                /* Prevent font-based zooming on iOS */
+                input, button, select, textarea {
+                  font-size: 16px;
+                }
+            
+                html, body {
+                  touch-action: manipulation;
+                }
+              </style>
+
+            <link href="login.css" rel="stylesheet">
+            <title>Admin Login</title>
+        </head>
+        
+    <body>
+        <form id="login-form">
+            <h1 class="h1">Login</h1>
+            <input type="email" class="email" required placeholder="Email">
+            <input type="password" class="password" required placeholder="Password">
+            <div type="button" id="toggle-password">Show Password</div>
+              <button type="submit">Login</button>
+        </form>
+        <div id="message"></div>
+    </body>
+    <script src="login.js"></script>
+    <script>
+        // Block Ctrl + Scroll and pinch zoom
+        document.addEventListener('wheel', function (e) {
+          if (e.ctrlKey) e.preventDefault();
+        }, { passive: false });
+    
+        document.addEventListener('gesturestart', function (e) {
+          e.preventDefault();
+        });
+      </script>
+ 
+
+
+</html>
