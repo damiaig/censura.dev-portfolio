@@ -12,7 +12,7 @@
     
     if (pierce) {
       pierce.addEventListener("click", function() {
-        window.open("https://damiaig.github.io/saloon/index.html", "_blank");
+        window.open("https://piercingsbye.com/", "_blank");
       });
     }
     const messageEl = document.getElementById("message");
