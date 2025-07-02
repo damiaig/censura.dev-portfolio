@@ -8,6 +8,11 @@ body {
     color: white;
   }
   
+html {
+  scroll-behavior: smooth;
+}
+
+
   nav {
   
     padding: 10px 0px 0px 0px; /* top-right-bottom-left */
