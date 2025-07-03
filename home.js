@@ -6,18 +6,33 @@
     serverTimestamp
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
- 
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const pierce = document.getElementById("p-by-e");
-    
+    const commerce = document.getElementById"e-commerce")
+
+
+
+       if (commerce) {
+      pierce.commerce("click", function() {
+        window.open("https://damiaig.github.io/e-commerce/", "_blank");
+      });
+    }
+   
     if (pierce) {
       pierce.addEventListener("click", function() {
         window.open("https://piercingsbye.com/", "_blank");
       });
     }
+   
     const messageEl = document.getElementById("message");
     const charCountEl = document.getElementById("charCount");
-  
+
+
+
+
+
+
+   
     messageEl.addEventListener("input", () => {
       charCountEl.textContent = `${messageEl.value.length}/500`;
     });
