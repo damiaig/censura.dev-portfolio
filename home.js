@@ -8,7 +8,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const pierce = document.getElementById("p-by-e");
-    const commerce = document.getElementById"e-commerce")
+    const commerce = document.getElementById("e-commerce")
 
 
 
