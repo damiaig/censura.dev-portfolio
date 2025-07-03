@@ -698,7 +698,7 @@ height: 25px;
         display: none !important;
     }   
     ul.navbar li {
-      margin-right: 12px !important; /* Reduced general spacing */
+      margin-right: 7px !important; /* Reduced general spacing */
     }
     ul.navbar li.logo {
       margin-right: 15px !important; /* Reduced space between logo and Home */
