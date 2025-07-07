@@ -8,13 +8,20 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const pierce = document.getElementById("p-by-e");
-    const commerce = document.getElementById("e-commerce")
+    const commerce = document.getElementById("e-commerce");
+     const estate = document.getElementById("real-estate");
 
 
 
        if (commerce) {
       pierce.commerce("click", function() {
         window.open("https://damiaig.github.io/e-commerce/", "_blank");
+      });
+    }
+
+        if (estate) {
+      pierce.commerce("click", function() {
+        window.open("https://damiaig.github.io/landing/", "_blank");
       });
     }
    
