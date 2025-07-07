@@ -185,6 +185,7 @@ Censura.dev is a space where designers, developers, and thinkers collaborate to 
  
 
 </div>
+  
 <script type="module" src="home.js"></script>
             <script>
         // Block Ctrl + Scroll and pinch zoom
@@ -195,6 +196,30 @@ Censura.dev is a space where designers, developers, and thinkers collaborate to 
         document.addEventListener('gesturestart', function (e) {
           e.preventDefault();
         });
+
+              const pierce = document.getElementById("pbye");
+    const commerce = document.getElementById("commerce");
+     const estate = document.getElementById("estate");
+
+
+
+       if (commerce) {
+      commerce.addEventListener("click", function() {
+        window.open("https://damiaig.github.io/e-commerce/", "_blank");
+      });
+    }
+
+        if (estate) {
+      estate.addEventListener("click", function() {
+        window.open("https://damiaig.github.io/landing/", "_blank");
+      });
+    }
+   
+    if (pierce) {
+      pierce.addEventListener("click", function() {
+        window.open("https://piercingsbye.com/", "_blank");
+      });
+    }
       </script>
 </body>
 </html>
