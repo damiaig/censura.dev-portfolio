@@ -7,9 +7,9 @@
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 document.addEventListener("DOMContentLoaded", function() {
-    const pierce = document.getElementById("p-by-e");
-    const commerce = document.getElementById("e-commerce");
-     const estate = document.getElementById("real-estate");
+    const pierce = document.getElementById("pbye");
+    const commerce = document.getElementById("commerce");
+     const estate = document.getElementById("estate");
 
 
 
