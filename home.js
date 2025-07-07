@@ -7,30 +7,7 @@
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 document.addEventListener("DOMContentLoaded", function() {
-    const pierce = document.getElementById("pbye");
-    const commerce = document.getElementById("commerce");
-     const estate = document.getElementById("estate");
 
-
-
-       if (commerce) {
-      commerce.addEventListener("click", function() {
-        window.open("https://damiaig.github.io/e-commerce/", "_blank");
-      });
-    }
-
-        if (estate) {
-      estate.addEventListener("click", function() {
-        window.open("https://damiaig.github.io/landing/", "_blank");
-      });
-    }
-   
-    if (pierce) {
-      pierce.addEventListener("click", function() {
-        window.open("https://piercingsbye.com/", "_blank");
-      });
-    }
-   
     const messageEl = document.getElementById("message");
     const charCountEl = document.getElementById("charCount");
 
