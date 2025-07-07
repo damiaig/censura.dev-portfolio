@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
        if (commerce) {
-      commerce.commerce("click", function() {
+      commerce.addEventListener("click", function() {
         window.open("https://damiaig.github.io/e-commerce/", "_blank");
       });
     }
 
         if (estate) {
-      estate.commerce("click", function() {
+      estate.addEventListener("click", function() {
         window.open("https://damiaig.github.io/landing/", "_blank");
       });
     }
