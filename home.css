@@ -1138,15 +1138,17 @@ footer .brand-word {
   background: var(--bg-card);
   border: 1px solid var(--border);
 
-  /* normal desktop layout */
-  aspect-ratio: 16 / 9;
 
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
 
   cursor: grab;
   user-select: none;
+
+
+
+  aspect-ratio: 16 / 9 !important;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .slider-stage:active {
@@ -1154,36 +1156,16 @@ footer .brand-word {
 }
 
 /* Tablet */
-/* Tablet */
-@media (max-width: 900px) {
-  .slider-stage {
-    aspect-ratio: 16 / 10;
-  }
-}
+ 
 
-/* Mobile */
-@media (max-width: 700px) {
+/* kill all mobile/tablet overrides */
+@media (max-width: 900px),
+       (max-width: 700px),
+       (max-width: 480px),
+       (max-width: 360px) {
   .slider-stage {
-    aspect-ratio: 4 / 3;
-    min-height: 240px;
-    border-radius: 18px;
-  }
-}
-
-/* Small phones */
-@media (max-width: 480px) {
-  .slider-stage {
-    aspect-ratio: 1 / 1;
-    min-height: 220px;
-    border-radius: 16px;
-  }
-}
-
-/* Ultra small */
-@media (max-width: 360px) {
-  .slider-stage {
-    aspect-ratio: 16 / 11;
-    min-height: 200px;
+    aspect-ratio: 16 / 9 !important;
+    min-height: unset !important;
   }
 }
 .slider-section,
