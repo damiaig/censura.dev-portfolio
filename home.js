@@ -81,7 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
     menu: 'https://damiaig.github.io/Menu/',
     landingg: 'https://damiaig.github.io/Landing2/',
     cafe: 'https://damiaig.github.io/Menu-Caf-/',
-    restaurant: 'https://damiaig.github.io/Restaurant-menu/'
+    restaurant: 'https://damiaig.github.io/Restaurant-menu/',
+    gym: 'https://damiaig.github.io/gym-demo/'
   };
 
   Object.entries(links).forEach(([id, url]) => {
