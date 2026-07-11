@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ───────────────────────────────────────── */
   const links = {
     kit: 'https://kit-tin.company/',
-    pbye: 'https://piercingsbye.com/',
+    pbye: 'https://piercingsbye.shop/',
     commerce: 'https://damiaig.github.io/e-commerce/',
     estate: 'https://damiaig.github.io/Landing/',
     menu: 'https://damiaig.github.io/Menu/',
